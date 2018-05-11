@@ -1,0 +1,44 @@
+{
+  "name": "cs-build",
+  "version": "0.1.0",
+  "description": "A client sever build tool for npm driven nodejs projects",
+  "main": "lib/index.js",
+  "scripts": {
+    "bump": "npm version prerelease && git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cs-build": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/cs-build.git"
+  },
+  "keywords": [
+    "build",
+    "make"
+  ],
+  "author": "Stephan Ahlf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/cs-build/issues"
+  },
+  "homepage": "https://github.com/s-a/cs-build#readme",
+  "dependencies": {
+    "git-branch": "^2.0.1",
+    "is-git-clean": "^1.1.0",
+    "n-cli": "^1.2.16",
+    "ora": "^2.1.0",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-local": "^1.0.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.1.0"
+  }
+}
