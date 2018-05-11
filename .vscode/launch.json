@@ -10,10 +10,8 @@
             "name": "Programm start",
             "program": "${workspaceFolder}\\lib\\index.js",
             "args": [
-                "--project",
                 "csx",
-                "--stage",
-                "staging"
+                "developpment"
             ]
         },
         {
