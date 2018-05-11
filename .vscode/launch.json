@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}\\lib\\index.js",
             "args": [
                 "csx",
-                "developpment"
+                "development"
             ]
         },
         {
